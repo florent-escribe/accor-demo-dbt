@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: hotel_sales
+    database: HOTEL_SALES_DATABASE
+    schema: HOTEL_SALES_CSV  
+    tables:
+      - name: HOTEL_SALES_TABLE
+
