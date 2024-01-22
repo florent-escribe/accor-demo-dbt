@@ -1,27 +1,3 @@
 {
   "sqlfluff.dialect": "ansi",
-  "sqlfluff.env.useDotEnvFile": true,
-  "sqlfluff.excludeRules": ["L009"],
-  "sqlfluff.executablePath": "/home/florent/.pyenv/shims/sqlfluff",
-  "sqlfluff.ignoreLocalConfig": false,
-  "sqlfluff.ignoreParsing": false,
-  "sqlfluff.rules": [],
-  "sqlfluff.suppressNotifications": false,
-  "sqlfluff.workingDirectory": "",
-  /* Linter */
-  "sqlfluff.linter.arguments": [],
-  // "sqlfluff.linter.run": "onType",
-  "sqlfluff.linter.diagnosticSeverity": "error",
-  "sqlfluff.linter.diagnosticSeverityByRule": [
-    {
-      "rule": "L010",
-      "severity": "warning"
-    }
-  ],
-  "sqlfluff.linter.lintEntireProject": true,
-  /* Formatter */
-  "sqlfluff.format.arguments": ["--FIX-EVEN-UNPARSABLE"],
-  "sqlfluff.format.enabled": true,
-  "sqlfluff.linter.run": "onSave",
-  "sqlfluff.experimental.format.executeInTerminal": true,
 }
